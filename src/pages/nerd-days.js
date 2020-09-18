@@ -211,7 +211,7 @@ const NerdDaysPage = () => {
                   <CtaItem date="Nov 10, 2020" to="/emea-nerd-days">
                     EMEA Registration
                   </CtaItem>
-                  <CtaItem date="Nov 11, 2020" to="/apj-nerd-days">
+                  <CtaItem date="Oct 22, 2020" to="/apj-nerd-days">
                     APJ Registration
                   </CtaItem>
                 </ul>
@@ -613,9 +613,7 @@ const CtaItem = ({ date, to, children }) => (
     <span
       css={css`
         margin-top: 0.25rem;
-        font-size: 0.625rem;
-        opacity: 0.75;
-        color: #464e4e;
+        font-size: 0.9rem;
         text-transform: uppercase;
         letter-spacing: 0.5px;
       `}
